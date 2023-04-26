@@ -1,0 +1,31 @@
+body{
+    width: 980px;
+    margin: 0px auto;
+}
+header{
+    padding: 0 0 90px auto;
+}
+#logo-header{
+    float: left;
+    text-decoration: none;
+}
+#site-header{
+    float: left;
+    display: block;
+}
+nav{
+    background-color: #666;
+    padding-left: 4px;
+    height: 24px;
+}
+nav ul li{
+    display: inline;
+    padding: 0 20px 5px 10px;
+    border-right: 1px solid #fff;
+}
+nav ul li a{
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
