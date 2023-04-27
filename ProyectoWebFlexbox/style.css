@@ -1,0 +1,47 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.father{
+
+}
+    .header{
+        background: #000;
+    }
+        .menu{
+            background: #454545;
+        }
+            .logo, .nav, .social{
+                background: #FF6000;
+            }
+        .main-text{
+            background: #FFA559;
+        }
+        h1{
+            background: #FFE6C7;
+        }
+    .section{
+        background: #000;
+    }
+    .articles{
+        background: #4e4e6a;
+    }
+        .article{
+            background: #1f6cb0;
+        }
+        .navegation{
+                background: #70a3c4;
+            }
+        .aside{
+        background: #f73f52;
+        }
+            .adver{
+                background: #FFea85;
+            }
+    .footer{
+        background: #000;
+    }
+        .foot{
+            background: #1f6cb0;
+        }
