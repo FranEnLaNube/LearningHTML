@@ -4,18 +4,38 @@
     box-sizing: border-box;
 }
 .father{
-
+    display: flex;
+    flex-flow: column nowrap;
 }
     .header{
         background: #000;
+        display: flex;
+        flex-flow: column nowrap;
     }
         .menu{
             background: #454545;
+            display: flex;
+            flex-flow: row nowrap;
+            height: 100px;
+            align-items: center;
         }
-            .logo, .nav, .social{
+            .logo{
                 background: #FF6000;
+                flex: 1 1 auto;
+                height: 50px;
+            }
+            .nav{
+                background: #FF6000;
+                flex: 5 1 auto;
+                height: 50px;
+            }
+            .social{
+                background: #FF6000;
+                flex: 1 1 auto;
+                height: 50px;
             }
         .main-text{
+            flex: 1 1 auto;
             background: #FFA559;
         }
         h1{
